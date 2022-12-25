@@ -1,0 +1,19 @@
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #EEEEEE;
+
+  * {
+    box-sizing: border-box;
+  }
+
+  .content {
+    .heading {
+      font-family: 'Press Start 2P', cursive;
+      color: #8244ff;
+      text-align: center;
+    }
+  }
+}
