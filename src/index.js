@@ -4,11 +4,15 @@ import './index.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { StrictMode } from 'react';
+import { Provider } from 'react-redux';
+import store from './store';
 
 const rootElement = document.getElementById('root');
 render(
   <StrictMode>
-    <App />
+    <Provider store={store}>
+      <App />
+    </Provider>
   </StrictMode>,
   rootElement
 );
